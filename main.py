@@ -42,9 +42,9 @@ game_is_on = True
 # Update the states guessed
 guessed_states = []
 
-while len(states) < 30:
+while len(states) < 29:
     answer = screen.textinput(
-        title=f"{score}/29 Guess the State !", prompt="What's the state name?").title()
+        title=f"{score}/28 Guess the State !", prompt="What's the state name?").title()
     if answer == "Exit":
         states_left = []
         for state in states:
